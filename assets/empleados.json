@@ -1,0 +1,22 @@
+{
+    "empleados":[
+        {
+            "nombre": "Alfredo",
+            "apellidos": "cabrera",
+            "posicion": "dev",
+            "sueldo": 25000   
+        },
+        {
+            "nombre": "Luis",
+            "apellidos": "guevara",
+            "posicion": "dev",
+            "sueldo": 25000   
+        },
+        {
+            "nombre": "fred",
+            "apellidos": "guerreo",
+            "posicion": "dev",
+            "sueldo": 25000   
+        }
+    ]
+}
