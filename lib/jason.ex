@@ -8,6 +8,9 @@ defmodule Typespecs.Jason do
       {:ok, json} <- Jason.decode(file),
       {:ok, empleados} <- Map.fetch(json, "empleados") do
         empleados |> Enum.map(fn k -> k["sueldo"] end) |> Enum.sum
+      else
+        :error -> "Error general"
+        {:error, _} -> "Error mas especifico"
       end
   end
 end
